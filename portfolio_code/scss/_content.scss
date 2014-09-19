@@ -1,0 +1,205 @@
+* {
+	font-family: Orator Std;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+	color: $orange;
+}
+
+h2:hover {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h3:hover {
+	font-size: 25px;
+	color: $orange;
+}
+
+.grigio {
+	background-color: #afb5bd;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+}
+
+.home {
+	background-image: url('../images/home_page.png');
+	background-repeat: no-repeat;
+	height:800px;
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.pc {
+	position: absolute;
+	top: 370px;
+	left: 120px;
+}
+
+.watch {
+	position: absolute;
+	right: 105px;
+	top: 110px;
+}
+
+img.desaturate {
+	-webkit-filter: grayscale(100%);
+}
+
+img.desaturate:hover {
+	-webkit-filter: grayscale(0%);
+}
+
+.web_title {
+	text-align: center;
+	color: $orange;
+	margin-top: 35px;
+}
+
+.description_left,
+.description_right {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.portfolio {
+	height: 480px;
+	padding: 5px;
+	position: relative;
+}
+
+.portfolio_text {
+	padding: 5px;
+	position: relative;
+	margin-top: 240px;
+}
+
+.movie_presentation {
+	height: 240px;
+	padding: 5px;
+	position: relative;
+	margin-top: 240px;
+	-webkit-filter: grayscale(100%);
+}
+
+.tales {
+	height: 480px;
+	padding: 5px;
+	position: relative;
+}
+
+.movie_page {
+	height: 480px;
+	padding: 5px;
+	position: relative;
+}
+
+.movie_nav {
+	height: 240px;
+	padding: 5px;
+	position: relative;
+}
+
+.loste,
+.wine {
+	height: 450px;
+	padding: 5px;
+	position: relative;
+}
+
+.wine_cellar {
+	height: 450px;
+	padding: 5px;
+	position: relative;
+}
+
+.skie_text {
+	height: 240px;
+	padding: 5px;
+	position: relative;
+	margin-top: 260px;
+	text-align: right;
+}
+
+.skie {
+	height: 480px;
+	padding: 5px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.jott {
+	height: 480px;
+	padding: 5px;
+	position: relative;
+}
+
+.jott_carousel {
+	height: 240px;
+	padding: 5px;
+	position: relative;
+}
+
+.majo,
+.majo_wp {
+	height: 240px;
+	padding: 5px;
+	position: relative;
+	margin-bottom: 50px;
+	margin-top: 35px;
+}
+
+.majo_text {
+	padding: 5px;
+	position: absolute;
+	left: -240px;
+	text-align: right;
+	margin-top: 155px;
+}
+
+.info {
+	height: 350px;
+	background-color: $dark_gray;
+	text-align: right;
+}
+
+.name {
+	color: $orange;
+	font-size: 70px;
+	font-family: Amatic SC;
+	text-align: right;
+}
+
+.vertical {
+	top: -190px;
+}
+
+.vertical_about {
+	line-height: 50px;
+	word-wrap: break-word;
+	width: 1px;
+	position: absolute;
+	right: -215px;
+}
+
+.vertical_home {
+	line-height: 50px;
+	word-wrap: break-word;
+	width: 1px;
+	position: absolute;
+	right: -200px;
+}
+
+.address:hover {
+	font-size: 30px;
+}

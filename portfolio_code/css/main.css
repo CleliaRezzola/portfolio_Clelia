@@ -1,0 +1,275 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+/* line 1, ../scss/_content.scss */
+* {
+  font-family: Orator Std;
+}
+
+/* line 5, ../scss/_content.scss */
+h1 {
+  font-size: 24px;
+}
+
+/* line 9, ../scss/_content.scss */
+h2 {
+  font-size: 20px;
+  color: #e27840;
+}
+
+/* line 14, ../scss/_content.scss */
+h2:hover {
+  font-size: 30px;
+}
+
+/* line 18, ../scss/_content.scss */
+h3 {
+  font-size: 20px;
+}
+
+/* line 22, ../scss/_content.scss */
+h3:hover {
+  font-size: 25px;
+  color: #e27840;
+}
+
+/* line 27, ../scss/_content.scss */
+.grigio {
+  background-color: #afb5bd;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+
+/* line 34, ../scss/_content.scss */
+.home {
+  background-image: url("../images/home_page.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 960px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 43, ../scss/_content.scss */
+.pc {
+  position: absolute;
+  top: 370px;
+  left: 120px;
+}
+
+/* line 49, ../scss/_content.scss */
+.watch {
+  position: absolute;
+  right: 105px;
+  top: 110px;
+}
+
+/* line 55, ../scss/_content.scss */
+img.desaturate {
+  -webkit-filter: grayscale(100%);
+}
+
+/* line 59, ../scss/_content.scss */
+img.desaturate:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+/* line 63, ../scss/_content.scss */
+.web_title {
+  text-align: center;
+  color: #e27840;
+  margin-top: 35px;
+}
+
+/* line 70, ../scss/_content.scss */
+.description_left,
+.description_right {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* line 75, ../scss/_content.scss */
+.portfolio {
+  height: 480px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 81, ../scss/_content.scss */
+.portfolio_text {
+  padding: 5px;
+  position: relative;
+  margin-top: 240px;
+}
+
+/* line 87, ../scss/_content.scss */
+.movie_presentation {
+  height: 240px;
+  padding: 5px;
+  position: relative;
+  margin-top: 240px;
+  -webkit-filter: grayscale(100%);
+}
+
+/* line 95, ../scss/_content.scss */
+.tales {
+  height: 480px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 101, ../scss/_content.scss */
+.movie_page {
+  height: 480px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 107, ../scss/_content.scss */
+.movie_nav {
+  height: 240px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 114, ../scss/_content.scss */
+.loste,
+.wine {
+  height: 450px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 120, ../scss/_content.scss */
+.wine_cellar {
+  height: 450px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 126, ../scss/_content.scss */
+.skie_text {
+  height: 240px;
+  padding: 5px;
+  position: relative;
+  margin-top: 260px;
+  text-align: right;
+}
+
+/* line 134, ../scss/_content.scss */
+.skie {
+  height: 480px;
+  padding: 5px;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* line 141, ../scss/_content.scss */
+.jott {
+  height: 480px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 147, ../scss/_content.scss */
+.jott_carousel {
+  height: 240px;
+  padding: 5px;
+  position: relative;
+}
+
+/* line 154, ../scss/_content.scss */
+.majo,
+.majo_wp {
+  height: 240px;
+  padding: 5px;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 35px;
+}
+
+/* line 162, ../scss/_content.scss */
+.majo_text {
+  padding: 5px;
+  position: absolute;
+  left: -240px;
+  text-align: right;
+  margin-top: 155px;
+}
+
+/* line 170, ../scss/_content.scss */
+.info {
+  height: 350px;
+  background-color: #747474;
+  text-align: right;
+}
+
+/* line 176, ../scss/_content.scss */
+.name {
+  color: #e27840;
+  font-size: 70px;
+  font-family: Amatic SC;
+  text-align: right;
+}
+
+/* line 183, ../scss/_content.scss */
+.vertical {
+  top: -190px;
+}
+
+/* line 187, ../scss/_content.scss */
+.vertical_about {
+  line-height: 50px;
+  word-wrap: break-word;
+  width: 1px;
+  position: absolute;
+  right: -215px;
+}
+
+/* line 195, ../scss/_content.scss */
+.vertical_home {
+  line-height: 50px;
+  word-wrap: break-word;
+  width: 1px;
+  position: absolute;
+  right: -200px;
+}
+
+/* line 203, ../scss/_content.scss */
+.address:hover {
+  font-size: 30px;
+}
+
+/* line 6, ../scss/main.scss */
+body {
+  margin: 0 auto;
+}
+
+/* line 10, ../scss/main.scss */
+.container {
+  max-width: 960px;
+}
+
+/* line 14, ../scss/main.scss */
+.clearfix:after, article:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+
+/* line 23, ../scss/main.scss */
+.clearfix, article {
+  display: inline-block;
+}
+
+/* line 27, ../scss/main.scss */
+* html .clearfix, * html article {
+  height: 1%;
+}
+
+/* line 31, ../scss/main.scss */
+.clearfix, article {
+  display: block;
+}
